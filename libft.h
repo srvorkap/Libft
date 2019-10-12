@@ -6,7 +6,7 @@
 /*   By: srvorkap <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/20 15:28:01 by srvorkap          #+#    #+#             */
-/*   Updated: 2019/10/09 22:07:58 by srvorkap         ###   ########.fr       */
+/*   Updated: 2019/10/11 19:15:53 by srvorkap         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,11 @@
 ** Funcitons malloc and free
 */
 # include <stdlib.h>
+
+/*
+** Access to the constant NULL and to the type size_t
+*/
+# include <string.h>
 
 typedef struct		s_list
 {
